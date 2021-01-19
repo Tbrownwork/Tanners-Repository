@@ -74,7 +74,7 @@ These Beats allow us to collect the following information from each machine:
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured on the Jump Box as well as have the webservers such as DVWA-VM1 configured. Assuming you have such a control node provisioned:
 SSH into the control node and follow the steps below:
-![Example_Playbook_YAML](https://github.com/Tbrownwork/Tanners-Repository/blob/main/Ansible/install-elk.yml)
+[Example_Playbook_YAML](https://github.com/Tbrownwork/Tanners-Repository/blob/main/Ansible/install-elk.yml)
 
 #### Install ELK Stack on the Elk-Server
 - Copy the install-elk.yml playbook file to the Ansible container folder /etc/ansible/files/
